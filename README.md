@@ -1,86 +1,75 @@
 # 🚀 FocusFlow
-
-**Your intelligent companion for conquering digital distractions and mastering your focus.**  
-
-[![Python Version](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/downloads/) 
-![Status](https://img.shields.io/badge/status-active-success.svg)
+**Automation & Productivity — Turning everyday struggles into smarter, faster workflows.**
 
 ---
 
 ## 🌟 Overview
-FocusFlow is a **real-time productivity tracker** that monitors your screentime across all applications, classifies your activity as **Productive, Neutral, or Non-Productive**, and provides **intelligent reminders and warnings** to keep you on track.  
+In today’s digital world, distractions are just one tab away. From aimless scrolling to forgotten reminders, productivity often slips through the cracks of daily laptop usage.  
 
-At the end of each focus session, FocusFlow generates a **session summary report** — showing how much of your time was spent productively, along with detailed percentages.  
+This is where **FocusFlow** steps in.  
+It automates the process of **tracking screentime, classifying activities, and nudging users in real-time** — helping people stay focused without constant self-monitoring.  
 
-Whether you’re a student, developer, or professional — FocusFlow helps you stay in control of your digital habits and maximize your deep work sessions.
-
----
-
-## ✨ Key Features
-- ⏱ **Live Screentime Tracking** → Monitors active windows in real time.  
-- 🏷 **Smart Classification** → Categorizes activity into *Productive*, *Neutral*, and *Non-Productive* based on customizable keywords.  
-- 🔔 **Focus Session Reminders** → Sends subtle reminders during focus sessions to keep you engaged.  
-- ⚠️ **Distraction Warnings** → Alerts you instantly when you spend too long on non-productive apps.  
-- 📊 **Session Summary Reports** → End-of-session breakdown with:  
-  - Total time spent in each category.  
-  - Productivity percentage.  
-  - Clear session insights to help you improve.  
-- 💻 **Cross-Platform** → Works on **Windows** and **Linux** with dedicated executables, or run directly from source code.  
-- ⚙️ **Fully Customizable** → Edit `config.json` to define what counts as productive or distracting.  
+By combining **automation** (smart window tracking, session nudges) with **productivity insights** (session reports, % breakdowns), FocusFlow converts the *struggle of distraction* into a **smarter workflow** that builds focus and accountability.
 
 ---
 
-## 📸 Demo
-*A quick look at FocusFlow in action.*  
-> **Suggestion:** Add screenshots or a GIF of your app here.  
-[▶ Watch Demo](demo.webm)
+## 👥 Related Repositories
+
+- **Core Productivity Tracker (this repo):** Handles real-time activity tracking, classification, nudges, and reporting.  
+- **Frontend UI:**  
+  🔗 Repo: [FocusFlow-page](https://github.com/Yashkondane/streamline-landing-page)  
+  🌐 Live Preview & Downloads: [Vercel Deployment](https://coustoum-domain-project.vercel.app/)  
+
+Together, these make **FocusFlow** a complete system — with both backend productivity tracking and a polished UI for downloads & feature showcase.
+
 ---
 
-## 📋 Table of Contents
-- [Overview](#-overview)
-- [Key Features](#-key-features)
-- [Demo](#-demo)
-- [Installation & Usage](#-installation--usage)
-  - [For Regular Users](#for-regular-users)
-  - [For Developers](#for-developers)
-- [Configuration](#-configuration)
-- [Roadmap](#-roadmap)
-- [Contributing](#-contributing)
-- [License](#-license)
+## 🎯 Why FocusFlow Solves the Problem
+- **Everyday Struggle:** People lose hours on non-productive apps without realizing.  
+- **Automation:** FocusFlow tracks screentime *automatically*, no manual input needed.  
+- **Smarter Workflow:** It gently warns you when you drift off, keeping you in control.  
+- **Faster Results:** At the end of a session, it gives a clear report — no need to dig through analytics or guess where time went.  
+
+💡 In short: FocusFlow takes the **messy reality of laptop time** and turns it into a **practical, actionable system for better productivity**.
+
+---
+
+## ✨ Core Features
+- ⏱ **Live Screentime Tracking:** Monitors active windows in real-time.  
+- 🏷 **Smart Classification:** Productive, Neutral, and Non-Productive categories.  
+- 🔔 **Focus Session Reminders:** Gentle nudges for staying on task.  
+- ⚠️ **Distraction Warnings:** Alerts when time is wasted on unproductive apps.  
+- 📊 **Session Reports:** Automatic summary with total productive time & efficiency %.  
+- 💻 **Cross-Platform Ready:** Works on Windows & Linux (via EXE or source).  
 
 ---
 
 ## 🚀 Installation & Usage
-
-### ✅ For Regular Users (No Setup Required)
-Download and run the **pre-compiled executables**:
-1. Go to the **[Releases](https://github.com/your-username/FocusFlow/releases)** page.  
-2. Download the latest version for your OS:  
-   - `FocusFlow-Windows.exe` (Windows)  
-   - `FocusFlow-Linux` (Linux)  
-3. Double-click the file to start tracking your productivity.  
+### Quick Start (Executables)
+1. Download from the **[UI Page](https://coustoum-domain-project.vercel.app/)** or **[GitHub Releases](https://github.com/your-username/FocusFlow/releases)**.  
+2. Run the `.exe` (Windows) or binary (Linux).  
+3. Start your focus session instantly.  
 
 ---
 
-### 👩‍💻 For Developers
-Run FocusFlow directly from source code:
+### Developer Setup
 
-```bash
-# Clone the repository
-git clone https://github.com/your-username/FocusFlow.git
-cd Glorious Goofers
+**Full Setup (Clone → Virtual Env → Install → Run)**  
 
-# Create and activate a virtual environment
-# Windows
+Windows (PowerShell):
+```powershell
+# Clone repository
+git clone https://github.com/your-username/Glorious-Goofers.git
+cd Glorious-Goofers
+
+# Create virtual environment
 python -m venv venv
-.\venv\Scripts\activate
 
-# macOS/Linux
-python3 -m venv venv
-source venv/bin/activate
+# Activate environment
+.\venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
 
-# Run the app
+# Run the application
 python main.py
