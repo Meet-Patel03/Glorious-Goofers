@@ -33,7 +33,7 @@ Whether you’re a student, developer, or professional — FocusFlow helps you s
 ## 📸 Demo
 *A quick look at FocusFlow in action.*  
 > **Suggestion:** Add screenshots or a GIF of your app here.  
-
+[▶ Watch Demo](demo.webm)
 ---
 
 ## 📋 Table of Contents
