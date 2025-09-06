@@ -68,7 +68,7 @@ Run FocusFlow directly from source code:
 ```bash
 # Clone the repository
 git clone https://github.com/your-username/FocusFlow.git
-cd FocusFlow
+cd Glorious Goofers
 
 # Create and activate a virtual environment
 # Windows
